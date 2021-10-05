@@ -1,0 +1,7 @@
+$main-color: #1a75fd;
+
+@mixin nav{
+    background-color: $main-color;
+    color: black;
+    
+}

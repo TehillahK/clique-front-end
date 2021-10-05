@@ -1,0 +1,35 @@
+$space:1rem;
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: $space;
+    padding-left: $space;
+    padding-right: $space;
+}
+
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+@media only screen and (max-width: 960px){
+    .cols-two-md{
+        grid-template-columns: auto auto;
+    }
+}

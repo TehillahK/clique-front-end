@@ -1,0 +1,17 @@
+@use 'fonts';
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    @include fonts.global-font;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
