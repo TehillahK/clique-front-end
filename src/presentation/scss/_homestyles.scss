@@ -13,5 +13,25 @@
 }
 
 .banner{
-    grid-template-columns: auto auto;
+    margin-top: 1rem;
+    grid-template-columns: 30rem 30rem;
+    grid-column-gap: 20rem;
 }
+.estimates{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+}
+.estimate{
+    border-bottom: 0.1rem solid black;
+}
+.calculator{
+
+    border: 00.1rem solid black;
+    border-radius: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+

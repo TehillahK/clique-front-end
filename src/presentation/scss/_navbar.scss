@@ -1,6 +1,5 @@
 @use 'theme';
 header{
-    @include theme.nav;
     padding: 0;
     margin: 0;
     
@@ -10,7 +9,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     //margin-right: 15rem;
-   
+   border-bottom: 0.1rem solid black;
     .logo{  
         justify-content: flex-start;
        padding-top: 0.6rem;

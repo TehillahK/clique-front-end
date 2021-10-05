@@ -3,7 +3,8 @@ import Calculator from '../components/Calculator';
 
 const Home = () => {
     return ( 
-        <div className={'grid banner center'}>
+        <div className={'grid banner '}>
+            <span />
             <Calculator />
         </div>
      );
